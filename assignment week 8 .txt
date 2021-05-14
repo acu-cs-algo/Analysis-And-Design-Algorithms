@@ -1,0 +1,26 @@
+Answer:
+
+a)12 solutions
+b)16,777,216
+c) 40320 ways
+Explanation:
+
+A) No two queens on the same square
+
+Placing eight queens on an 8 * 8 chessboard has a total of 92 Separate   solutions but unique 12 solutions
+
+The total no of possible solutions using the computational method is
+
+= 64! / (56! * 8! ) ~ 4:4 * 109
+
+but since there are 12 unique solution out of the 92 therefore
+
+B) No two queens are in the same row
+
+= 8^8 = 16,777,216
+
+C) No two queens are in the same row or in the same column
+
+= 8! = 40320 ways
+
+It will approximately take less than a second for a computer with the capability of checking 10 billion positions per second to find all the solutions
